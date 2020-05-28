@@ -4,7 +4,7 @@ from LRU_Cache import LRU_Cache
 class lrutest(self):
     def testcases(self):
 
-        b = lru_cache(2)
+        b = LRU_Cache(2)
         b.put("web_content")
         assert b.get("web_content") == "web_content", "Testcases Failed"
         print("Testcase passed")
