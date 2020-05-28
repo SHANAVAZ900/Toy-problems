@@ -7,10 +7,7 @@ class LRU_Cache:
 # required methods:   put, get and get_cache
 
     def put(self, key):
-        return("pass")
 
     def get(self, key):
-        return("pass")
 
     def get_cache(self):
-        return("pass")
