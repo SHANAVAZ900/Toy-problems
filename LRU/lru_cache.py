@@ -22,5 +22,9 @@ class LRU_Cache:
             self.cache[key] = str(key)
 
     def get(self, key):
+        if key in self.lru:
+            return self.cache[key]
+        else:
+            return None
 
     def get_cache(self):
