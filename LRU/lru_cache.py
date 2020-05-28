@@ -28,3 +28,7 @@ class LRU_Cache:
             return None
 
     def get_cache(self):
+        l = []
+        for key in reversed(self.lru):
+            l.append(key + "=" + self.cache[key])
+        return l
