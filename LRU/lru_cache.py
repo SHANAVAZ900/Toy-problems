@@ -1,4 +1,4 @@
-class lru_cache:
+class LRU_Cache:
     def _init_(self, size):
         self.size = size
         self.cache = {}
